@@ -1,0 +1,33 @@
+{
+  "name": "simple-midi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "execute": "~/.anyenv/envs/nodenv/versions/14.17.1/bin/ts-node src/index.ts",
+    "eslint": "eslint src/**/*.ts",
+    "eslint:fix": "eslint src/**/*.ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hirasaki1985/simple-midi-js.git"
+  },
+  "keywords": [],
+  "author": "Mamoru Hirasaki <hirasaki1985@gmail.com> (https://walking-succession-falls.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hirasaki1985/simple-midi-js/issues"
+  },
+  "homepage": "https://github.com/hirasaki1985/simple-midi-js#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.0",
+    "@typescript-eslint/parser": "^4.28.0",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "8.3.0",
+    "prettier": "2.3.2",
+    "ts-node": "^10.0.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.3.4"
+  }
+}
